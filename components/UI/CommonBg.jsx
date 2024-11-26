@@ -4,19 +4,27 @@ import commonBanner from "../../public/commonBanner.jpg";
 
 function CommonBg() {
 
-  const [url, setUrl] = useState("");
+  // const [url, setUrl] = useState("");
+  // const capitalizedWord = url.charAt(0).toUpperCase() + url.slice(1);
 
+ 
+  
+  const [breadcrumbs, setBreadcrumbs] = useState([]);
+
+  console.log(window.location.href);
+  console.log(breadcrumbs);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const fullUrl = window.location.href; // e.g., "http://localhost:3000/products"
-      const pathSegment = fullUrl.split("/").pop(); // Extracts "products"
-      setUrl(pathSegment); // Set only the last part ("products") in the state
+      // Get the pathname after the domain
+      const pathSegments = window.location.pathname
+        .split("/") // Split by "/"
+        .filter((segment) => segment); // Remove empty strings (e.g., from leading "/")
+
+      // Update the state with the array of path segments
+      setBreadcrumbs(["Home", ...pathSegments]);
     }
   }, []);
-
-  const capitalizedWord = url.charAt(0).toUpperCase() + url.slice(1);
-
 
   return (
     <div
@@ -29,16 +37,17 @@ function CommonBg() {
       {/* Content (optional) */}
       <div className="relative z-10  flex flex-col items-center justify-center h-full ">
         <h2 className="text-4xl text-white font-sans font-bold uppercase relative inline-block">
-          {url}
+          "hii"
           <span className="block h-1 w-10 bg-yellow-500 mx-auto mt-2"></span>
         </h2>{" "}
-        <div className="mt-4">
-          <span className="text-white cursor-pointer">Home</span>
-          <span className="text-white "> / </span>
-          <span className="text-white cursor-pointer">{capitalizedWord}</span>
-          <span className="text-white "> / </span>
-          <span className="text-white cursor-pointer">{capitalizedWord}</span>
-        </div>
+        <div className="breadcrumbs mt-4">
+        {breadcrumbs.map((crumb, index) => (
+          <span key={index} className="breadcrumb text-white">
+            {crumb.charAt(0).toUpperCase() + crumb.slice(1)} {/* Capitalize */}
+            {index < breadcrumbs.length - 1 && " / "} {/* Add separator */}
+          </span>
+        ))}
+      </div>
       </div>
     </div>
   );

@@ -48,7 +48,7 @@ function Navbar() {
               <a
                 key={item}
                 className="text-sm md:text-md hover:text-yellow-500 uppercase font-semibold cursor-pointer transition duration-200"
-                href={item === "home" ? "/" : item}
+                href={item === "home" ? "/" :"/"+item}
               >
                 {item}
               </a>

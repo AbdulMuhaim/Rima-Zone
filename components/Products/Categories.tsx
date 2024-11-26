@@ -23,6 +23,8 @@ import {
   FaShieldAlt,
   FaBroom,
   FaSeedling,
+  FaRoad,
+  FaToilet,
 } from "react-icons/fa";
 
 import { FaTape } from "react-icons/fa6";
@@ -67,17 +69,19 @@ export default function Categories() {
     },
     {
       id: 5,
-      icon: <FaBroom />, // Represents cleaning equipment
-      title: "Cleaning Equipment",
+      icon: <FaToilet />, // Represents sanitary and plumbing
+      title: "Sanitary & Plumbing",
+      link: "sanitary-plumbing",
       description:
-        "Mauris quam neque, ullamcorper sit amet lorem in, aliquet sagittis ante. Nulla enim velit, porttitor sed magna at, porttitor.",
+        "Curabitur lacinia arcu nec neque tincidunt, vel pharetra purus consectetur. Suspendisse potenti. Proin vulputate ex ut justo.",
     },
     {
       id: 6,
-      icon: <FaSeedling />, // Represents gardening and agriculture
-      title: "Lawn Garden & Agriculture",
+      icon: <FaRoad />, // Represents road safety materials
+      title: "Road Safety Materials",
+      link: "road-safety-materials",
       description:
-        "Mauris quam neque, ullamcorper sit amet lorem in, aliquet sagittis ante. Nulla enim velit, porttitor sed magna at, porttitor.",
+        "Sed dignissim magna et lectus ultrices, a faucibus sapien mollis. Vivamus rhoncus metus eget metus tempor feugiat.",
     },
     {
       id: 7,
@@ -192,6 +196,20 @@ export default function Categories() {
       icon: <FaPaintRoller />, // Represents painting and coating
       title: "Painting & Coating",
       description: "Specialized tools and materials for painting and coating.",
+    },
+    {
+      id: 25,
+      icon: <FaBroom />, // Represents cleaning equipment
+      title: "Cleaning Equipment",
+      description:
+        "Mauris quam neque, ullamcorper sit amet lorem in, aliquet sagittis ante. Nulla enim velit, porttitor sed magna at, porttitor.",
+    },
+    {
+      id: 26,
+      icon: <FaSeedling />, // Represents gardening and agriculture
+      title: "Lawn Garden & Agriculture",
+      description:
+        "Mauris quam neque, ullamcorper sit amet lorem in, aliquet sagittis ante. Nulla enim velit, porttitor sed magna at, porttitor.",
     },
   ];
 
