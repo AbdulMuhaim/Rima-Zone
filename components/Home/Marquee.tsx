@@ -74,6 +74,8 @@ const ReviewCard = ({
           src={img}
           quality={100}
           objectFit="cover"
+          width={100}
+          height={100}
          />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">

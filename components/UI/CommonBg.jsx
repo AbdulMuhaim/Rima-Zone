@@ -5,9 +5,7 @@ import commonBanner from "../../public/commonBanner.jpg";
 function CommonBg() {
 
   const [url, setUrl] = useState("");
-  const capitalizedWord = url.charAt(0).toUpperCase() + url.slice(1);
 
-  console.log(window.location.href)
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -16,6 +14,9 @@ function CommonBg() {
       setUrl(pathSegment); // Set only the last part ("products") in the state
     }
   }, []);
+
+  const capitalizedWord = url.charAt(0).toUpperCase() + url.slice(1);
+
 
   return (
     <div
