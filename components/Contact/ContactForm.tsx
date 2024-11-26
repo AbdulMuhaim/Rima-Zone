@@ -20,7 +20,7 @@ export default function ContactForm() {
           </div>
           <textarea
             placeholder="Your Message"
-            rows="4"
+            rows={4}
             className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
           ></textarea>
           <button
