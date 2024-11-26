@@ -27,19 +27,19 @@ export default function Home() {
 
 
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      { breakpoint: 768, settings: { slidesToShow: 2 } },
-      { breakpoint: 480, settings: { slidesToShow: 1 } },
-    ],
-  };
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 4,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   autoplaySpeed: 3000,
+  //   responsive: [
+  //     { breakpoint: 768, settings: { slidesToShow: 2 } },
+  //     { breakpoint: 480, settings: { slidesToShow: 1 } },
+  //   ],
+  // };
 
 
 
@@ -130,9 +130,9 @@ export default function Home() {
     },
   ];
 
-  const insurances = [
-    whatsappLogo, whatsappLogo, whatsappLogo, whatsappLogo, whatsappLogo
-  ];
+  // const insurances = [
+  //   whatsappLogo, whatsappLogo, whatsappLogo, whatsappLogo, whatsappLogo
+  // ];
 
   return (
     <>

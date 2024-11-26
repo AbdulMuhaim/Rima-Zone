@@ -61,7 +61,7 @@ function page() {
 
           <div className="md:w-1/2 w-full flex flex-col justify-start items-start  px-10">
             <h1 className="text-3xl  uppercase font-bold font-sans">
-              President's Message
+              Presidents Message
               <span className="block  h-1 w-16 bg-yellow-500  mt-6"></span>
             </h1>
 

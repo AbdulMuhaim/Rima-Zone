@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Image from "next/image";
-import { it } from "node:test";
+// import { it } from "node:test";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
