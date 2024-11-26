@@ -5,7 +5,7 @@ import banner6 from "../public/Banner/banner6.jpg";
 import banner7 from "../public/Banner/banner7.jpg";
 import banner8 from "../public/Banner/banner8.jpg";
 import banner9 from "../public/Banner/banner9.jpg";
-import whatsappLogo from "../public/WhatsApp.svg.png";
+// import whatsappLogo from "../public/WhatsApp.svg.png";
 import bgImage from "../public/bgImages/5367739.jpg";
 import { FaThumbsUp } from "react-icons/fa";
 import { AiOutlineClockCircle } from "react-icons/ai";
