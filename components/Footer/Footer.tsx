@@ -2,6 +2,7 @@ import { CgFacebook } from "react-icons/cg";
 import { AiFillInstagram } from "react-icons/ai";
 import { RiSnapchatFill } from "react-icons/ri";
 import { BiLogoLinkedin } from "react-icons/bi";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Footer = () => {
   return (
@@ -52,7 +53,7 @@ const Footer = () => {
         </div>
 
         {/* Subscribe */}
-        <div>
+        <div className="">
           <h3 className="text-lg font-bold border-b-2 border-yellow-500 pb-2 mb-8">
             SUBSCRIBE
           </h3>
@@ -60,7 +61,7 @@ const Footer = () => {
             Subscribe to our mailing list to get the updates to your email
             inbox.
           </p>
-          <form className="flex mx-auto">
+          <form className="flex mx-auto justify-start ">
             <input
               type="email"
               placeholder="Your email here"
@@ -74,6 +75,8 @@ const Footer = () => {
             </button>
           </form>
         </div>
+
+
       </div>
       <div className="flex container mx-auto px-4 flex-col sm:flex-row justify-between text-center border-t border-gray-700 mt-8 pt-4 text-sm">
         <p>Copyrights © 2024 All Rights Reserved.</p>

@@ -13,7 +13,6 @@ import { GiDiamondHard } from "react-icons/gi";
 import { useEffect, useState } from "react";
 import { MarqueeDemo } from "@/components/Home/Marquee";
 import Footer from "@/components/Footer/Footer";
-import "@fortawesome/fontawesome-free/css/all.min.css";
 import Whatsapp from "@/components/UI/Whatsapp";
 import Header from "@/components/Header/Header";
 import Navbar from "@/components/Header/Navbar";
