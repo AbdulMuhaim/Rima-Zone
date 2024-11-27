@@ -206,7 +206,7 @@ export default function Home() {
         {/* cards */}
 
         <div className="py-16 shadow-2xl w-full ">
-          <div className="w-full mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1150px]">
+          <div className="w-full mx-auto  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1150px]">
             {cardData.map((card, index) => (
               <div
                 key={index}

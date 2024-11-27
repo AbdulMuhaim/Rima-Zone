@@ -82,7 +82,7 @@ function Navbar() {
                 key={item}
                 className="text-sm font-sans uppercase font-bold hover:text-yellow-500 cursor-pointer py-1 transition duration-200"
                 onClick={() => setIsMenuOpen(false)}
-                href={item}
+                href={item === "home" ? "/" :"/"+item}
               >
                 {item}
               </a>
