@@ -184,7 +184,7 @@ export default function Home() {
 
             {/* Search Box */}
             <form className="w-full max-w-md sm:max-w-lg">
-              <div className="flex items-center bg-white/80 backdrop-blur-lg rounded-full shadow-lg p-2">
+              <div className="flex items-center bg-white/80 backdrop-blur-lg rounded-lg shadow-lg p-2">
                 {/* Input Field */}
                 <input
                   type="text"
@@ -194,7 +194,7 @@ export default function Home() {
                 {/* Search Button */}
                 <button
                   type="submit"
-                  className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-4 sm:px-6 py-2 sm:py-3 rounded-full transition duration-300"
+                  className="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold px-4 sm:px-6 py-2 sm:py-3 rounded-xl transition duration-300"
                 >
                   Search
                 </button>
