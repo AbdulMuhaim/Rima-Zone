@@ -37,7 +37,7 @@ function CommonBg() {
       {/* Content (optional) */}
       <div className="relative z-10  flex flex-col items-center justify-center h-full ">
         <h2 className="text-4xl text-white font-sans font-bold uppercase relative inline-block">
-          "hii"
+          hii
           <span className="block h-1 w-10 bg-yellow-500 mx-auto mt-2"></span>
         </h2>{" "}
         <div className="breadcrumbs mt-4">

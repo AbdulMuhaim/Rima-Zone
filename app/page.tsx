@@ -230,7 +230,6 @@ export default function Home() {
                     {card.description}
                   </p>
                   <a
-                    href="#"
                     className="block mt-4 text-xs  text-yellow-400 hover:text-white font-semibold opacity-0 transform translate-y-10 transition-all duration-500 ease-in-out group-hover:translate-y-[-20px] group-hover:opacity-100"
                   >
                     READ MORE
