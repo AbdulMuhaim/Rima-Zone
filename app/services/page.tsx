@@ -4,7 +4,6 @@ import Header from '@/components/Header/Header'
 import Navbar from '@/components/Header/Navbar'
 import Service from '@/components/Services/Service'
 import CommonBg from '@/components/UI/CommonBg'
-import Image from 'next/image'
 
 import React from 'react'
 
