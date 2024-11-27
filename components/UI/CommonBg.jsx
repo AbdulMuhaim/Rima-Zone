@@ -11,8 +11,7 @@ function CommonBg() {
   
   const [breadcrumbs, setBreadcrumbs] = useState([]);
 
-  console.log(window.location.href);
-  console.log(breadcrumbs);
+
 
   useEffect(() => {
     if (typeof window !== "undefined") {
