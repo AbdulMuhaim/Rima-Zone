@@ -10,7 +10,7 @@ import React, { useState } from "react";
 
 // Define the type for each product
 type Product = {
-  image: File;
+  image: string;
   name: string;
 };
 
