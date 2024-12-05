@@ -1,4 +1,5 @@
 "use client";
+import { StaticImageData } from "next/image"; // Import StaticImageData type
 import CallUsBanner from "@/components/About/CallUsButton";
 import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
@@ -10,9 +11,10 @@ import React, { useState } from "react";
 
 // Define the type for each product
 type Product = {
-  image: string;
+  image: StaticImageData;
   name: string;
 };
+
 
 // Define the type for the props
 type ProductListProps = {
@@ -92,13 +94,6 @@ function ProductList({ products }: ProductListProps) {
                   <h3 className="mt-4 font-bold text-center text-lg text-gray-700">
                     {product.name}
                   </h3>
-                  {product.allSize ? (
-                    <p className="mt-4 text-center text-lg text-gray-700">
-                      &nbsp;(All size available)
-                    </p>
-                  ) : (
-                    ""
-                  )}
                 </div>
               </a>
             ))}

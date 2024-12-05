@@ -19,7 +19,7 @@ import ProductList from "@/components/Products/ProductList";
 
 
 function Page() {
-  const products = [
+  const products: Product[] = [
     {
       image: img1,
       name: "Rammer Tamping",

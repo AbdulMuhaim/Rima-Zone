@@ -34,8 +34,8 @@ import img32 from "../../../public/Products Images/Plumbing&Sanitary/61ltEFMAn5L
 
 function page() {
 
-    const products = [
-       {
+  const products: Product[] = [
+    {
         image:img1 ,
         name:"Wall-Mounted Toilets"
        },

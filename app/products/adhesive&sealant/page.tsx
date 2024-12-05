@@ -1,6 +1,6 @@
 "use client";
-import React from 'react'
-import img1 from "../../../public/Products Images/Construction/honda-gxr120-jumping-jack-rammer-compactor-tamper-wacker-miskasa-2-2000x2000.jpg.webp"
+import React from "react";
+import img1 from "../../../public/Products Images/Construction/honda-gxr120-jumping-jack-rammer-compactor-tamper-wacker-miskasa-2-2000x2000.jpg.webp";
 import img2 from "../../../public/Products Images/Construction/71W9mFee4kL._AC_SL1500_.jpg";
 import img3 from "../../../public/Products Images/Construction/201912241659435943.jpg";
 import img4 from "../../../public/Products Images/Construction/71hr+esU6DL._AC_SL1500_.jpg";
@@ -14,75 +14,73 @@ import img11 from "../../../public/Products Images/Construction/Senci-SCWP80-1.j
 import img12 from "../../../public/Products Images/Construction/mev150_720x@2x.webp";
 import img13 from "../../../public/Products Images/Construction/245012001.jpg";
 import img14 from "../../../public/Products Images/Construction/concrete_vibrating_screed_blades_e35b1354-0612-4f09-879f-1cd25cb9df91_666x666.webp";
-import ProductList from '@/components/Products/ProductList';
+import ProductList from "@/components/Products/ProductList";
 
 function page() {
-
-    const products = [
-        {
-          image: img1,
-          name: "Rammer Tamping",
-        },
-        {
-          image: img2,
-          name: "Compactor",
-        },
-        {
-          image: img3,
-          name: "Roller Vibrator",
-        },
-        {
-          image: img4,
-          name: "Jack Hammer",
-        },
-        {
-          image: img5,
-          name: "Circular Saw Hydraulic",
-        },
-        {
-          image: img6,
-          name: "Trash Pump Hydraulic",
-        },
-        {
-          image: img7,
-          name: "Trowel",
-        },
-        {
-          image: img14,
-          name: "Screed Blade",
-        },
-        {
-          image: img8,
-          name: "Screed Finishing",
-        },
-        {
-          image: img9,
-          name: "Cutter Asphalt-Concrete",
-        },
-        {
-          image: img10,
-          name: "Power Pack Hydraulic",
-        },
-        {
-          image: img11,
-          name: "Water Pump Engine",
-        },
-        {
-          image: img12,
-          name: "Vibrator Electric",
-        },
-        {
-          image: img13,
-          name: "Vibrator Engine",
-        },
-      ];
-
+  const products: Product[] = [
+    {
+      image: img1,
+      name: "Rammer Tamping",
+    },
+    {
+      image: img2,
+      name: "Compactor",
+    },
+    {
+      image: img3,
+      name: "Roller Vibrator",
+    },
+    {
+      image: img4,
+      name: "Jack Hammer",
+    },
+    {
+      image: img5,
+      name: "Circular Saw Hydraulic",
+    },
+    {
+      image: img6,
+      name: "Trash Pump Hydraulic",
+    },
+    {
+      image: img7,
+      name: "Trowel",
+    },
+    {
+      image: img14,
+      name: "Screed Blade",
+    },
+    {
+      image: img8,
+      name: "Screed Finishing",
+    },
+    {
+      image: img9,
+      name: "Cutter Asphalt-Concrete",
+    },
+    {
+      image: img10,
+      name: "Power Pack Hydraulic",
+    },
+    {
+      image: img11,
+      name: "Water Pump Engine",
+    },
+    {
+      image: img12,
+      name: "Vibrator Electric",
+    },
+    {
+      image: img13,
+      name: "Vibrator Engine",
+    },
+  ];
 
   return (
     <div>
-          <ProductList products={products} /> {/* Pass products here */}
+      <ProductList products={products} /> {/* Pass products here */}
     </div>
-  )
+  );
 }
 
-export default page
+export default page;

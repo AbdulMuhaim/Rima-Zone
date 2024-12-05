@@ -17,8 +17,8 @@ import img14 from "../../../public/Products Images/CleaningEquipments/RapidClean
 
 function page() {
 
-    const products = [
-      {
+  const products: Product[] = [
+    {
         image: img1,
         name: "Hall Mop",
       },
