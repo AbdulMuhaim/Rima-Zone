@@ -17,6 +17,10 @@ import img14 from "../../../public/Products Images/Abrasive/71sZhrIIBiL._SL1500_
 import img15 from "../../../public/Products Images/Abrasive/lincoln-wire-brush-k3185-1-13_1500x.webp";
 import ProductList from "@/components/Products/ProductList";
 
+type Product = {
+  image: StaticImageData; 
+  name: string; 
+};
 
 
 
@@ -26,7 +30,7 @@ function Page() {
     { image: img1, name: "Ceramic Polish" },
     { image: img2, name: "Flexible Depressed Wheel" },
     { image: img3, name: "Depressed Center Wheel" },
-    { image: img4, name: "Cut Off Wheel", allSize: true },
+    { image: img4, name: "Cut Off Wheel"},
     { image: img5, name: "Grinding Wheel" },
     { image: img6, name: "Sandbelt" },
     { image: img7, name: "Sandpaper" },

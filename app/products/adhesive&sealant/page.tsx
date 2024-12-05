@@ -15,6 +15,13 @@ import img12 from "../../../public/Products Images/Construction/mev150_720x@2x.w
 import img13 from "../../../public/Products Images/Construction/245012001.jpg";
 import img14 from "../../../public/Products Images/Construction/concrete_vibrating_screed_blades_e35b1354-0612-4f09-879f-1cd25cb9df91_666x666.webp";
 import ProductList from "@/components/Products/ProductList";
+import { StaticImageData } from "next/image";
+
+type Product = {
+  image: StaticImageData; 
+  name: string; 
+};
+
 
 function page() {
   const products: Product[] = [

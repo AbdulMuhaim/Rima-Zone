@@ -1,6 +1,4 @@
 "use client";
-
-
 import img1 from "../../../public/Products Images/Construction/honda-gxr120-jumping-jack-rammer-compactor-tamper-wacker-miskasa-2-2000x2000.jpg.webp"
 import img2 from "../../../public/Products Images/Construction/71W9mFee4kL._AC_SL1500_.jpg";
 import img3 from "../../../public/Products Images/Construction/201912241659435943.jpg";
@@ -16,7 +14,12 @@ import img12 from "../../../public/Products Images/Construction/mev150_720x@2x.w
 import img13 from "../../../public/Products Images/Construction/245012001.jpg";
 import img14 from "../../../public/Products Images/Construction/concrete_vibrating_screed_blades_e35b1354-0612-4f09-879f-1cd25cb9df91_666x666.webp";
 import ProductList from "@/components/Products/ProductList";
+import { StaticImageData } from "next/image";
 
+type Product = {
+  image: StaticImageData; 
+  name: string; 
+};
 
 function Page() {
   const products: Product[] = [

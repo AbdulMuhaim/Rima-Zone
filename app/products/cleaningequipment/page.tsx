@@ -14,6 +14,12 @@ import img11 from "../../../public/Products Images/CleaningEquipments/390-States
 import img12 from "../../../public/Products Images/CleaningEquipments/4477298.webp"
 import img13 from "../../../public/Products Images/CleaningEquipments/Ruby-50E.jpeg"
 import img14 from "../../../public/Products Images/CleaningEquipments/RapidClean-IPC-1250-Ride-On-Sweeper.jpg"
+import { StaticImageData } from "next/image";
+
+type Product = {
+  image: StaticImageData; 
+  name: string; 
+};
 
 function page() {
 

@@ -31,6 +31,13 @@ import img29 from "../../../public/Products Images/Plumbing&Sanitary/vattudalen-
 import img30 from "../../../public/Products Images/Plumbing&Sanitary/nysjoen-mirror-cabinet-white__0971580_pe811387_s5.avif"
 import img31 from "../../../public/Products Images/Plumbing&Sanitary/aengsjoen-backsjoen-wash-stand-wash-basin-tap-oak-effect-white-marble-effect__1208659_pe908700_s5.avif"
 import img32 from "../../../public/Products Images/Plumbing&Sanitary/61ltEFMAn5L._AC_SL1500_.jpg"
+import { StaticImageData } from "next/image";
+
+type Product = {
+  image: StaticImageData; 
+  name: string; 
+};
+
 
 function page() {
 
