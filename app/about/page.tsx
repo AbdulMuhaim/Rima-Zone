@@ -37,7 +37,15 @@ function page() {
           </div>
 
           <div className="md:w-1/2 w-full ">
-            <Image src={aboutImage} className="" height={100} width={100} quality={100} alt="aboutimage" />
+            <Image
+              src={aboutImage}
+              className="w-full h-full object-cover"
+              height={1000}
+              width={1000}
+              quality={100}
+              alt="aboutimage"
+              priority
+            />
           </div>
         </div>
       </div>
@@ -49,10 +57,14 @@ function page() {
       <div className="flex w-full items-center justify-center py-20  text-black">
         <div className="max-w-[1150px] w-full flex flex-col sm:flex-row gap-10">
           <div className="md:w-1/2 w-full ">
-            <img
-              src={presidentImg.src}
-              className="w-full h-full"
+          <Image
+              src={presidentImg}
+              className="w-full h-full object-cover"
+              height={1000}
+              width={1000}
+              quality={100}
               alt="aboutimage"
+              priority
             />
           </div>
 
