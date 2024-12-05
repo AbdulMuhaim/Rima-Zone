@@ -8,9 +8,20 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 
+// Define the type for each product
+type Product = {
+  image: File;
+  name: string;
+};
+
+// Define the type for the props
+type ProductListProps = {
+  products: Product[];
+};
 
 
-function ProductList({products}) {
+
+function ProductList({ products }: ProductListProps) {
 
 
   // States for pagination and search
