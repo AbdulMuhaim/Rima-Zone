@@ -37,7 +37,7 @@ function page() {
           </div>
 
           <div className="md:w-1/2 w-full ">
-            <Image src={aboutImage} className="" alt="aboutimage" />
+            <Image src={aboutImage} className="" height={100} width={100} quality={100} alt="aboutimage" />
           </div>
         </div>
       </div>
@@ -51,11 +51,8 @@ function page() {
           <div className="md:w-1/2 w-full ">
             <img
               src={presidentImg.src}
-              width={100}
-              height={100}
               className="w-full h-full"
               alt="aboutimage"
-              quality={100} // Maximum quality
             />
           </div>
 
