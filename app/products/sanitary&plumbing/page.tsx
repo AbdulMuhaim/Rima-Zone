@@ -31,7 +31,29 @@ import img29 from "../../../public/Products Images/Plumbing&Sanitary/vattudalen-
 import img30 from "../../../public/Products Images/Plumbing&Sanitary/nysjoen-mirror-cabinet-white__0971580_pe811387_s5.avif"
 import img31 from "../../../public/Products Images/Plumbing&Sanitary/aengsjoen-backsjoen-wash-stand-wash-basin-tap-oak-effect-white-marble-effect__1208659_pe908700_s5.avif"
 import img32 from "../../../public/Products Images/Plumbing&Sanitary/61ltEFMAn5L._AC_SL1500_.jpg"
+import img33 from "../../../public/Products Images/Plumbing&Sanitary/518EvNASffL._AC_SX679_.jpg"
+import img34 from "../../../public/Products Images/Plumbing&Sanitary/81Y2+DrrIvL._AC_SL1500_.jpg"
+import img35 from "../../../public/Products Images/Plumbing&Sanitary/61Aye881wOL._AC_SL1500_.jpg"
+import img36 from "../../../public/Products Images/Plumbing&Sanitary/5b6cc7e53bb334c9d1a7e5a0efd2a62a5ae986462afe1fd9e5648692456c2db4.jpeg"
+import img37 from "../../../public/Products Images/Plumbing&Sanitary/31ChofOuTnL._AC_.jpg"
+import img38 from "../../../public/Products Images/Plumbing&Sanitary/s-l960.webp"
+import img39 from "../../../public/Products Images/Plumbing&Sanitary/71KV1n80y+L._AC_SL1500_.jpg"
+import img40 from "../../../public/Products Images/Plumbing&Sanitary/71z7UzynEwL._AC_SL1500_.jpg"
+import img41 from "../../../public/Products Images/Plumbing&Sanitary/51WZk6xMpKL._AC_SL1200_.jpg"
+import img42 from "../../../public/Products Images/Plumbing&Sanitary/71KPts6CrZL._AC_SL1500_.jpg"
+import img43 from "../../../public/Products Images/Plumbing&Sanitary/61xVhhev9GL._AC_SL1001_.jpg"
+import img44 from "../../../public/Products Images/Plumbing&Sanitary/51fVVBLJjNL._AC_SL1200_.jpg"
+import img45 from "../../../public/Products Images/Plumbing&Sanitary/31eK79DO1JL._AC_SL1080_.jpg"
+import img46 from "../../../public/Products Images/Plumbing&Sanitary/61Hr0lE8FgL._AC_SL1500_.jpg"
+import img47 from "../../../public/Products Images/Plumbing&Sanitary/61HBr+3989L._AC_SL1500_.jpg"
+import img48 from "../../../public/Products Images/Plumbing&Sanitary/51jpXFx-3UL._SL1500_.jpg"
+
 import { StaticImageData } from "next/image";
+import Header from '@/components/Header/Header'
+import Navbar from '@/components/Header/Navbar'
+import CommonBg from '@/components/UI/CommonBg'
+import CallUsBanner from '@/components/About/CallUsButton'
+import Footer from '@/components/Footer/Footer'
 
 type Product = {
   image: StaticImageData; 
@@ -166,12 +188,81 @@ function page() {
         image:img32 ,
         name:"Exhaust Fans"
        },
+       {
+        image:img33 ,
+        name:"PVC Pipe"
+       },
+       {
+        image:img34 ,
+        name:"PEX Pipes"
+       },
+       {
+        image:img35 ,
+        name:"Copper Pipes"
+       },
+       {
+        image:img36 ,
+        name:"Elbows (90° and 45°)"
+       },
+       {
+        image:img37 ,
+        name:"Tees"
+       },
+       {
+        image:img38 ,
+        name:"Couplings"
+       },
+       {
+        image:img39 ,
+        name:"Reducers"
+       },
+       {
+        image:img40 ,
+        name:"Ball Valves"
+       },
+       {
+        image:img41 ,
+        name:"Gate Valves"
+       },
+       {
+        image:img42 ,
+        name:"Check Valves"
+       },
+       {
+        image:img43 ,
+        name:"Teflon Tape"
+       },
+       {
+        image:img44 ,
+        name:"Waste Pipe"
+       },
+       {
+        image:img45 ,
+        name:"Electric Water Heaters"
+       },
+       {
+        image:img46 ,
+        name:"Flexible Hoses"
+       },
+       {
+        image:img47 ,
+        name:"Plumbing Clamps"
+       },
+       {
+        image:img48 ,
+        name:"Expansion Tanks"
+       },
 
     ]
 
   return (
     <div>
+      <Header />
+      <Navbar />
+      <CommonBg />
         <ProductList products={products}/>
+      <CallUsBanner />
+      <Footer />
     </div>
   )
 }

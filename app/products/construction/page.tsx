@@ -15,6 +15,11 @@ import img13 from "../../../public/Products Images/Construction/245012001.jpg";
 import img14 from "../../../public/Products Images/Construction/concrete_vibrating_screed_blades_e35b1354-0612-4f09-879f-1cd25cb9df91_666x666.webp";
 import ProductList from "@/components/Products/ProductList";
 import { StaticImageData } from "next/image";
+import Header from "@/components/Header/Header";
+import Navbar from "@/components/Header/Navbar";
+import CommonBg from "@/components/UI/CommonBg";
+import CallUsBanner from "@/components/About/CallUsButton";
+import Footer from "@/components/Footer/Footer";
 
 type Product = {
   image: StaticImageData; 
@@ -87,8 +92,12 @@ function Page() {
   return (
  
     <div>
-      <ProductList products={products}/>
-    </div>
+      <Header />
+      <Navbar />
+      <CommonBg />
+        <ProductList products={products}/>
+      <CallUsBanner />
+      <Footer />    </div>
   );
 }
 

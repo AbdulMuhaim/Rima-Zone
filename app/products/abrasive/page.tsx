@@ -16,6 +16,11 @@ import img13 from "../../../public/Products Images/Abrasive/81SvHJK1HVL._SL1500_
 import img14 from "../../../public/Products Images/Abrasive/71sZhrIIBiL._SL1500_.jpg";
 import img15 from "../../../public/Products Images/Abrasive/lincoln-wire-brush-k3185-1-13_1500x.webp";
 import ProductList from "@/components/Products/ProductList";
+import Header from "@/components/Header/Header";
+import Navbar from "@/components/Header/Navbar";
+import CommonBg from "@/components/UI/CommonBg";
+import CallUsBanner from "@/components/About/CallUsButton";
+import Footer from "@/components/Footer/Footer";
 
 type Product = {
   image: StaticImageData; 
@@ -47,8 +52,13 @@ function Page() {
 
   return (
     <div>
-  <ProductList products={products}/>
-    </div>
+      <Header />
+      <Navbar />
+      <CommonBg />
+        <ProductList products={products}/>
+      <CallUsBanner />
+      <Footer />    
+      </div>
   );
 }
 

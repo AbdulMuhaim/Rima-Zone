@@ -15,6 +15,11 @@ import img12 from "../../../public/Products Images/CleaningEquipments/4477298.we
 import img13 from "../../../public/Products Images/CleaningEquipments/Ruby-50E.jpeg"
 import img14 from "../../../public/Products Images/CleaningEquipments/RapidClean-IPC-1250-Ride-On-Sweeper.jpg"
 import { StaticImageData } from "next/image";
+import Header from '@/components/Header/Header'
+import Navbar from '@/components/Header/Navbar'
+import CommonBg from '@/components/UI/CommonBg'
+import CallUsBanner from '@/components/About/CallUsButton'
+import Footer from '@/components/Footer/Footer'
 
 type Product = {
   image: StaticImageData; 
@@ -84,8 +89,12 @@ function page() {
     
   return (
     <div>
+      <Header />
+      <Navbar />
+      <CommonBg />
         <ProductList products={products}/>
-    </div>
+      <CallUsBanner />
+      <Footer />    </div>
   )
 }
 
