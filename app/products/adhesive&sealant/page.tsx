@@ -1,19 +1,21 @@
 "use client";
 import React from "react";
-import img1 from "../../../public/Products Images/Construction/honda-gxr120-jumping-jack-rammer-compactor-tamper-wacker-miskasa-2-2000x2000.jpg.webp";
-import img2 from "../../../public/Products Images/Construction/71W9mFee4kL._AC_SL1500_.jpg";
-import img3 from "../../../public/Products Images/Construction/201912241659435943.jpg";
-import img4 from "../../../public/Products Images/Construction/71hr+esU6DL._AC_SL1500_.jpg";
-import img5 from "../../../public/Products Images/Construction/HydraSaw-S14.jpg";
-import img6 from "../../../public/Products Images/Construction/TPumpCat12_lb_700.jpg";
-import img7 from "../../../public/Products Images/Construction/f36-pp-left-scaled-e1692125980743-1367x1536.webp";
-import img8 from "../../../public/Products Images/Construction/concrete-power-screed-floor-leveller-concrete-finisher-surface-finishing-honda-engine-aluminum-blade-honda-1-2000x2000h.jpg.webp";
-import img9 from "../../../public/Products Images/Construction/e8bc5528-99c9-4379-b1d7-c58a05ba118d_10137515_1.jpg";
-import img10 from "../../../public/Products Images/Construction/pro20.webp";
-import img11 from "../../../public/Products Images/Construction/Senci-SCWP80-1.jpg";
-import img12 from "../../../public/Products Images/Construction/mev150_720x@2x.webp";
-import img13 from "../../../public/Products Images/Construction/245012001.jpg";
-import img14 from "../../../public/Products Images/Construction/concrete_vibrating_screed_blades_e35b1354-0612-4f09-879f-1cd25cb9df91_666x666.webp";
+import img1 from "../../../public/Products Images/Adhesive&Sealant/Infinity-Bond-Medica-Device-1LB_600x.webp";
+import img2 from "../../../public/Products Images/Adhesive&Sealant/loctite-263-threadlocker-50ml.jpg";
+import img3 from "../../../public/Products Images/Adhesive&Sealant/165918363720220730.jpg";
+import img4 from "../../../public/Products Images/Adhesive&Sealant/henkel-loctite-anaerobic-adhesive-1835206.webp";
+import img5 from "../../../public/Products Images/Adhesive&Sealant/71dwy48j9bL._SL1500_.jpg";
+import img6 from "../../../public/Products Images/Adhesive&Sealant/513XgasMPbL._AC_SL1024_.jpg";
+import img7 from "../../../public/Products Images/Adhesive&Sealant/410KU0XPdWL._AC_.jpg";
+import img8 from "../../../public/Products Images/Adhesive&Sealant/61H0sLtdfhL._AC_SL1500_.jpg";
+import img9 from "../../../public/Products Images/Adhesive&Sealant/71isXumZCcL._AC_SL1500_.jpg";
+import img10 from "../../../public/Products Images/Adhesive&Sealant/614tOlmfksL._SL1500_.jpg";
+import img11 from "../../../public/Products Images/Adhesive&Sealant/715yBTIsFkL._AC_SL1500_.jpg";
+import img12 from "../../../public/Products Images/Adhesive&Sealant/61Y7dtPqNbL._AC_SL1000_.jpg";
+import img13 from "../../../public/Products Images/Adhesive&Sealant/61YGWwhLKSL._SL1405_.jpg";
+import img14 from "../../../public/Products Images/Adhesive&Sealant/premium-window-door-hybrid-polymer-sealant-product-image-1.avif";
+
+
 import ProductList from "@/components/Products/ProductList";
 import { StaticImageData } from "next/image";
 import Header from "@/components/Header/Header";
@@ -32,59 +34,59 @@ function page() {
   const products: Product[] = [
     {
       image: img1,
-      name: "Rammer Tamping",
+      name: "Cyanoacrylate",
     },
     {
       image: img2,
-      name: "Compactor",
+      name: "Threadlocker",
     },
     {
       image: img3,
-      name: "Roller Vibrator",
+      name: "Flexible Gasket",
     },
     {
       image: img4,
-      name: "Jack Hammer",
+      name: "Retaining Compound",
     },
     {
       image: img5,
-      name: "Circular Saw Hydraulic",
+      name: "Epoxy Adhesive",
     },
     {
       image: img6,
-      name: "Trash Pump Hydraulic",
+      name: "Hot Melt Glue Sticks",
     },
     {
       image: img7,
-      name: "Trowel",
-    },
-    {
-      image: img14,
-      name: "Screed Blade",
+      name: "Acrylic Adhesive",
     },
     {
       image: img8,
-      name: "Screed Finishing",
+      name: "Contact Adhesive",
     },
     {
       image: img9,
-      name: "Cutter Asphalt-Concrete",
+      name: "Silicone Sealant",
     },
     {
       image: img10,
-      name: "Power Pack Hydraulic",
+      name: "Polyurethane Sealant",
     },
     {
       image: img11,
-      name: "Water Pump Engine",
+      name: "Acrylic Latex Caulk",
     },
     {
       image: img12,
-      name: "Vibrator Electric",
+      name: "Butyl Sealant",
     },
     {
       image: img13,
-      name: "Vibrator Engine",
+      name: "M-Seal",
+    },
+    {
+      image: img14,
+      name: "Hybrid Polymer Sealants",
     },
   ];
 

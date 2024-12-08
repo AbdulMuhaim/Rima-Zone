@@ -110,6 +110,7 @@ export default function Categories() {
       id: 10,
       icon: <FaCompress />, // Represents air compressors
       title: "Air Compressor",
+      link:"aircompressor",
       description:
         "Efficient air compressors engineered for industrial and personal applications.",
     },
@@ -130,6 +131,7 @@ export default function Categories() {
       id: 13,
       icon: <FaTruck />, // Represents generators
       title: "Generator",
+      link:"generator",
       description: "Reliable generators for uninterrupted power supply.",
     },
     {
