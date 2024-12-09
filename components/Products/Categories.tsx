@@ -118,6 +118,7 @@ export default function Categories() {
       id: 11,
       icon: <FaCut />, // Represents cutting tools
       title: "Cutting Tools",
+      link:"cuttingtools",
       description: "Precision cutting tools for diverse industrial needs.",
     },
     {
@@ -144,6 +145,7 @@ export default function Categories() {
       id: 15,
       icon: <FaToolbox />, // Represents pneumatic tools
       title: "Pneumatic Tools",
+      link:"pneumatictool",
       description:
         "High-quality pneumatic tools for effective industrial performance.",
     },
@@ -197,12 +199,14 @@ export default function Categories() {
       id: 23,
       icon: <FaTape />, // Represents packing equipment
       title: "Packing Equipment",
+      link:"packagingequipment",
       description: "High-quality packing tools for industrial and commercial use.",
     },
     {
       id: 24,
       icon: <FaPaintRoller />, // Represents painting and coating
       title: "Painting & Coating",
+      link:"painting&coating",
       description:
         "Superior materials and tools for professional painting and coating tasks.",
     },

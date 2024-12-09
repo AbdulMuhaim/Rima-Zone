@@ -1,19 +1,19 @@
 import ProductList from '@/components/Products/ProductList'
 import React from 'react'
-import img1 from "../../../public/Products Images/CleaningEquipments/81DPrEwkLyL._AC_SL1500_.jpg"
-import img2 from "../../../public/Products Images/CleaningEquipments/71a7yI4pF4L._AC_SL1500_.jpg"
-import img3 from "../../../public/Products Images/CleaningEquipments/23671_220849_Reinigungswagen.webp"
-import img4 from "../../../public/Products Images/CleaningEquipments/515re2tBfiL._SL1000_.jpg"
-import img5 from "../../../public/Products Images/CleaningEquipments/51AZtptSuQL._AC_SL1500_.jpg"
-import img6 from "../../../public/Products Images/CleaningEquipments/71B2VHG70FL._AC_SL1500_.jpg"
-import img7 from "../../../public/Products Images/CleaningEquipments/71NyZcywWRL._AC_SL1500_.jpg"
-import img8 from "../../../public/Products Images/CleaningEquipments/61xpW8MbESL._AC_SL1500_.jpg"
-import img9 from "../../../public/Products Images/CleaningEquipments/s-l1600.webp"
-import img10 from "../../../public/Products Images/CleaningEquipments/westward-22xp39.jpg"
-import img11 from "../../../public/Products Images/CleaningEquipments/390-Statesman.jpg"
-import img12 from "../../../public/Products Images/CleaningEquipments/4477298.webp"
-import img13 from "../../../public/Products Images/CleaningEquipments/Ruby-50E.jpeg"
-import img14 from "../../../public/Products Images/CleaningEquipments/RapidClean-IPC-1250-Ride-On-Sweeper.jpg"
+import img1 from "../../../public/Products Images/Cleaning Equipments/81DPrEwkLyL._AC_SL1500_.jpg"
+import img2 from "../../../public/Products Images/Cleaning Equipments/71a7yI4pF4L._AC_SL1500_.jpg"
+import img3 from "../../../public/Products Images/Cleaning Equipments/23671_220849_Reinigungswagen.webp"
+import img4 from "../../../public/Products Images/Cleaning Equipments/515re2tBfiL._SL1000_.jpg"
+import img5 from "../../../public/Products Images/Cleaning Equipments/51AZtptSuQL._AC_SL1500_.jpg"
+import img6 from "../../../public/Products Images/Cleaning Equipments/71B2VHG70FL._AC_SL1500_.jpg"
+import img7 from "../../../public/Products Images/Cleaning Equipments/71NyZcywWRL._AC_SL1500_.jpg"
+import img8 from "../../../public/Products Images/Cleaning Equipments/61xpW8MbESL._AC_SL1500_.jpg"
+import img9 from "../../../public/Products Images/Cleaning Equipments/s-l1600.webp"
+import img10 from "../../../public/Products Images/Cleaning Equipments/westward-22xp39.jpg"
+import img11 from "../../../public/Products Images/Cleaning Equipments/390-Statesman.jpg"
+import img12 from "../../../public/Products Images/Cleaning Equipments/4477298.webp"
+import img13 from "../../../public/Products Images/Cleaning Equipments/Ruby-50E.jpeg"
+import img14 from "../../../public/Products Images/Cleaning Equipments/RapidClean-IPC-1250-Ride-On-Sweeper.jpg"
 import { StaticImageData } from "next/image";
 import Header from '@/components/Header/Header'
 import Navbar from '@/components/Header/Navbar'
