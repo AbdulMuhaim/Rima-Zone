@@ -153,6 +153,7 @@ export default function Categories() {
       id: 16,
       icon: <FaLock />, // Represents security products
       title: "Security Products",
+      link:"securityproducts",
       description: "Innovative and dependable security solutions.",
     },
     {
@@ -165,6 +166,7 @@ export default function Categories() {
       id: 18,
       icon: <FaFire />,
       title: "Welding",
+      link:"welding",
       description: "Comprehensive welding tools and supplies for industrial needs.",
     },
     {

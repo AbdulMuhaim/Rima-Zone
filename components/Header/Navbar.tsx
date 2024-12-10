@@ -17,13 +17,14 @@ function Navbar() {
           {/* Logo Section */}
           <div className="h-24 w-1/2 lg:w-1/5 flex items-center space-x-4">
             <Image
-              src="/rimazone3.png"
+            className=""
+              src="/RZLogoNew.png"
               alt="Rima Zone Logo"
-              width={80}
-              height={80}
+              width={1000}
+              height={1000}
               aria-hidden
             />
-            <div className="flex flex-col items-center text-white">
+            {/* <div className="flex flex-col items-center text-white">
               <h1 className="text-2xl md:text-4xl   font-sans whitespace-nowrap uppercase ">
                 <span className="font-semibold">Rima</span>
                 <span className="ml-2">Zone</span>
@@ -31,7 +32,7 @@ function Navbar() {
               <h6 className="uppercase text-xs md:text-sm whitespace-nowrap opacity-80 ">
                 Complete Project Solution
               </h6>
-            </div>
+            </div> */}
           </div>
 
           {/* Navigation Links */}
