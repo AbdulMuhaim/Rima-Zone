@@ -160,6 +160,7 @@ export default function Categories() {
       id: 17,
       icon: <FaWarehouse />, // Represents storage systems
       title: "Storage Systems",
+      link: "storagesystems",
       description: "Optimized storage systems to enhance space utilization.",
     },
     {

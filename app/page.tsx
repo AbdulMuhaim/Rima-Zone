@@ -17,6 +17,9 @@ import Whatsapp from "@/components/UI/Whatsapp";
 import Header from "@/components/Header/Header";
 import Navbar from "@/components/Header/Navbar";
 import CallUsBanner from "@/components/About/CallUsButton";
+import service1 from "../public/ServiceImages/jpeg-optimizer_adjusting-heating-valves-residential-building.jpg"
+import service2 from "../public/ServiceImages/jpeg-optimizer_carpenter-male-dressed-safety-yellow-cap-works-with-chain-saw-garage.jpg"
+import service3 from "../public/ServiceImages/360_F_68632352_kmHLwFc2rQLmnKqn6gM0bhOPqxRTx8sY.jpg"
 
 
 
@@ -48,25 +51,25 @@ export default function Home() {
 
   const cardData = [
     {
-      title: "Exterior Design",
+      title: "Repair & Maintenance",
       description:
-        "Exceptuer sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+        "Proper repair and maintenance ensure the longevity and functionality of assets...",
       image:
-        "https://img.freepik.com/premium-photo/architecture-construction-ai-generated_406939-9250.jpg",
+        service1,
     },
     {
-      title: "Home Building",
+      title: "Material Supply",
       description:
-        "Exceptuer sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+        "Efficient material supply ensures the timely availability of resources..",
       image:
-        "https://cdn.pixabay.com/photo/2019/02/06/16/32/architect-3979490_1280.jpg",
+        service3,
     },
     {
-      title: "Building Renovation",
+      title: "Machinery Installation",
       description:
-        "Exceptuer sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
+        "Professional machinery installation ensures optimal performance, safety...",
       image:
-        "https://t4.ftcdn.net/jpg/00/68/63/23/360_F_68632352_kmHLwFc2rQLmnKqn6gM0bhOPqxRTx8sY.jpg",
+        service2,
     },
   ];
 
@@ -187,7 +190,7 @@ export default function Home() {
                 {/* Background Image */}
                 <div
                   className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-                  style={{ backgroundImage: `url(${card.image})` }}
+                  style={{ backgroundImage: `url(${card.image.src})` }}
                 ></div>
 
                 {/* Overlay */}

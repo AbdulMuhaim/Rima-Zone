@@ -15,15 +15,18 @@ function Navbar() {
       <div className="flex justify-center">
         <div className="flex absolute z-50 text-black w-full max-w-[1150px] px-4 lg:px-8">
           {/* Logo Section */}
-          <div className="h-24 w-1/2 lg:w-1/5 flex items-center space-x-4">
+          <div className="h-20 w-1/2 lg:w-1/4 flex items-center space-x-4">
             <Image
-            className=""
-              src="/RZLogoNew.png"
+              className="w-full mt-10 h-full  "
+              src="/NEWLOG.png"
               alt="Rima Zone Logo"
               width={1000}
               height={1000}
+              quality={100}
+              priority
               aria-hidden
             />
+
             {/* <div className="flex flex-col items-center text-white">
               <h1 className="text-2xl md:text-4xl   font-sans whitespace-nowrap uppercase ">
                 <span className="font-semibold">Rima</span>
